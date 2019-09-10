@@ -44,29 +44,33 @@ class PopularTabela extends Command {
             $categoria->save();
         }
         
+        $categoria = new App\Produto();
         $arrayProduto [1] = "Cadeira Gamer Husky Snow";      
         $arrayProduto [1] = "Console Sony PlayStation 4 1TB";       
         $arrayProduto [1] = "Headset Gamer HyperX CloudX";       
         $arrayProduto [1] = "iPhone XS Cinza Espacial, 64GB";      
         $arrayProduto [1] = "Smartphone Samsung Galaxy S10+";
         
+        $categoria = new App\Produto();
         $arrayProduto [2] = "Cadeira Gamer Husky Snow Black HSN-BK";
         $arrayProduto [2] = "O pacote PlayStation Hits oferece jogos incríveis ";
         $arrayProduto [2] = "O HyperX CloudX Stinger Core é o headset perfeito";
         $arrayProduto [2] = "O Apple iPhone XS é um dos smartphones iOS mais avançados e completos";
         $arrayProduto [2] = "O Samsung Galaxy S10 Plus é um smartphone Android ";
         
+        $categoria = new App\Produto();
         $arrayProduto [3] = 411.65;
         $arrayProduto [3] = 2.089;
         $arrayProduto [3] = 179.90;
         $arrayProduto [3] = 4.309;
         $arrayProduto [3] = 3.869;  
         
+        $categoria = new App\Produto();
         $arrayProduto [4] = 1;
-        $arrayProduto [4] = 1;
-        $arrayProduto [4] = 1;
-        $arrayProduto [4] = 1;
-        $arrayProduto [4] = 1;
+        $arrayProduto [4] = 2;
+        $arrayProduto [4] = 3;
+        $arrayProduto [4] = 4;
+        $arrayProduto [4] = 5;
         
         
         
