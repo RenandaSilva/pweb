@@ -20,7 +20,14 @@ class ClienteController extends Controller
     public function store(Request $request)
     {
         $cliente = new \App\Cliente();
-        $cliente->nomecli = $request->get('nomecli');
+        $cliente->nomcli = $request->get('nomcli');
+        $cliente->cpfcli = $request->get('cpfcli');
+        $cliente->endcli = $request->get('endcli');
+        $cliente->numcli = $request->get('numcli');
+        $cliente->baicli = $request->get('baicli');
+        $cliente->cidcli = $request->get('cidcli');
+        $cliente->ufcli = $request->get('ufcli');
+        $cliente->telcli = $request->get('telcli');
         $cliente->save();
         
         return redirect('/cliente')->with('msg','CLIENTE CADASTRADO COM SUCESSO!');
@@ -39,7 +46,15 @@ class ClienteController extends Controller
     public function update(Request $request, $codcli)
     {
         $cliente = \App\Cliente::find($codcli);
-        $cliente->nomecli = $request->get('nomecli');
+        $cliente->nomcli = $request->get('nomcli');
+        $cliente->cpfcli = $request->get('cpfcli');
+        $cliente->endcli = $request->get('endcli');
+        $cliente->numcli = $request->get('numcli');
+        $cliente->baicli = $request->get('baicli');
+        $cliente->cidcli = $request->get('cidcli');
+        $cliente->ufcli = $request->get('ufcli');
+        $cliente->telcli = $request->get('telcli');
+        
         $cliente->save();
         
         return redirect('/cliente')->with('msg', 'CLIENTE ALTERADO COM SUCESSO!');

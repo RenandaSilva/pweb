@@ -15,7 +15,7 @@ class CreateClientesTable extends Migration
     {
         Schema::create('cliente', function (Blueprint $table) {
             $table->increments('codcli');
-            $table->string('nomecli', 60);
+            $table->string('nomcli', 60);
             $table->string('cpfcli', 11);
             $table->string('endcli', 200);
             $table->integer('numcli');
