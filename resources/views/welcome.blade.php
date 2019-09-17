@@ -93,6 +93,9 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{ url('/categoria')}}">Categoria</a>
+                    <a href="{{ url('/cliente')}}">Cliente</a>
+                    <a href="{{ url('/produto')}}">Produto</a>
                 </div>
             </div>
         </div>
